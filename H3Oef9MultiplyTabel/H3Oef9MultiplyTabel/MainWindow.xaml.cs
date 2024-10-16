@@ -21,6 +21,8 @@ namespace H3Oef9MultiplyTabel
             InitializeComponent();
         }
 
+        StringBuilder sb = new StringBuilder();
+
         private void closeButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
@@ -33,7 +35,16 @@ namespace H3Oef9MultiplyTabel
 
         private void startButton_Click(object sender, RoutedEventArgs e)
         {
-
+            int x;
+            int y;         
+            for (x = 1; x <= 12; x++)
+            {
+                for (y = 1; y <= 12; y++)
+                {
+                    sb.AppendLine($"{x}*{y} = {x*y}");
+                }
+            }                       
+            resultTextBox.Text = "De Tafels van de vermenigvuldiging:\n\r" + sb.ToString();           
         }
     }
 }

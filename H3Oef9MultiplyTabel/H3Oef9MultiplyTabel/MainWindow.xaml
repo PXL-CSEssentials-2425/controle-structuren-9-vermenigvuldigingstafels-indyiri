@@ -8,10 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image x:Name="backgroundImage" HorizontalAlignment="Center" Height="429" VerticalAlignment="Top" Width="800" Source="/Achtergrond.jpg" Margin="0,-5,0,0" Stretch="Fill"/>
-        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Height="49" Margin="577,103,0,0" VerticalAlignment="Top" Width="143" Click="startButton_Click"/>
-        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="49" Margin="577,275,0,0" VerticalAlignment="Top" Width="143" Click="closeButton_Click"/>
-        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Height="49" Margin="577,185,0,0" VerticalAlignment="Top" Width="143" Click="clearButton_Click"/>
-        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="312" Margin="58,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True"/>
+        <Button x:Name="startButton" Content="Start" HorizontalAlignment="Left" Height="33" Margin="447,33,0,0" VerticalAlignment="Top" Width="71" Click="startButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="33" Margin="447,153,0,0" VerticalAlignment="Top" Width="71" Click="closeButton_Click"/>
+        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Height="33" Margin="447,95,0,0" VerticalAlignment="Top" Width="71" Click="clearButton_Click"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="345" Margin="94,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" TextAlignment="Right"/>
 
     </Grid>
 </Window>
